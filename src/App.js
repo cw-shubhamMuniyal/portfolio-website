@@ -1,12 +1,12 @@
 import './App.css';
 import AboutMe from './Components/AboutMe';
 import Header from './Components/Header';
-import { description, name } from './Utilities/constants';
+import { description, imageLogo, name } from './Utilities/constants';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header name={name} imageLogo={imageLogo}/>
       <AboutMe name={name} description={description} />
     </div>
   );

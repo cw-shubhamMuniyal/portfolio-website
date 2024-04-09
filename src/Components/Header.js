@@ -1,10 +1,10 @@
 import Navbar from "./Navbar";
 import '../Styles/Header.css';
 
-function Header() {
+function Header({ name, imageLogo }) {
   return (
     <div className="header">
-      <Navbar />
+      <Navbar name={name} imageSrc={imageLogo} />
     </div>
   );
 }
