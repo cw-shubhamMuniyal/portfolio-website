@@ -14,7 +14,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 98rem;
-    width: 100%;
+    width: 92%;
 }
 
 .heading-primary {
@@ -24,6 +24,12 @@
     text-align: center;
     color: #111;
     font-weight: 800;
+}
+
+@media only screen and (max-width: 37.5em) {
+    .heading-primary {
+        font-size: 4.5rem;
+    }
 }
 
 .about-me__info {
@@ -57,7 +63,7 @@
     display: inline-block;
     font-weight: 700;
     border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
     transition: transform .3s;
     text-decoration: none;
 }

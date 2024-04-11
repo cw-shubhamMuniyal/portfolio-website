@@ -1,4 +1,5 @@
 import "../Styles/about-me.css"
+import Mouse from "./Mouse";
 function AboutMe({ name, description }) {
     return (
         <section className="about-me">
@@ -13,6 +14,7 @@ function AboutMe({ name, description }) {
                     <a href="./#projects" className="button button--bg">Projects</a>
                 </div>
             </div>
+            <Mouse />
         </section>
     );
 }
