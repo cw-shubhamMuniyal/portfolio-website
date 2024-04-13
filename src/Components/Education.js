@@ -21,7 +21,7 @@ const Education = ({ sectionName, courseDetails }) => (
             <h2 className="heading heading-sec heading-sec__mb-med">
                 <span className="heading-sec__main heading-sec__main--lt">{sectionName}</span>
             </h2>
-            <div class="main-award" id="award-box">
+            <div className="main-award award-box">
                 {getCoursenDetails(courseDetails)}
             </div>
         </div>

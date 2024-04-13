@@ -19,10 +19,25 @@ function Contact({ sectionName }) {
     }
 
     const SendEmail = async () => {
-        try {
-        } catch (err) {
-            console.log(err)
-        }
+        var data = {
+            service_id: 'portfolio_service',
+            template_id: 'contact_form',
+            user_id: 'qyk2IcNPe4XpH4Ugd',
+            template_params: {
+                'message': message,
+                'user_email': email,
+                'user_name': name
+            }
+        };
+
+        fetch('https://api.emailjs.com/api/v1.0/email/send', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data)
+        })
     }
 
     return (
