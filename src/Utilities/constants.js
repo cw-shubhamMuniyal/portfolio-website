@@ -1,6 +1,13 @@
+import linkedinIcon from "../StaticMedia/Images/linkedin-icon.png";
+import githubIcon from "../StaticMedia/Images/github-icon.png";
+import youtubeIcon from "../StaticMedia/Images/youtube-play.png";
+import twitterIcon from "../StaticMedia/Images/twitter-icon.png";
 export const name = "Shubham Muniyal";
 export const description = "I'm a Software Engineer from India. I love to solve problems in an efficient way.";
 export const imageLogo = "https://i.postimg.cc/TwY74D31/profile-pic-8.png";
+export const phoneNumber = "+917083893561";
+export const emailAddress = "shubhammuniyal@gmail.com";
+export const altEmailAddress = "shubham.muniyal@somaiya.edu";
 
 export const courseDetails = [
     {
@@ -22,3 +29,30 @@ export const courseDetails = [
         university : "S.E.S English Medium High School, Ulhasnagar"
     },
 ];
+
+export const profileLinks = [
+    {
+        "key": "linkedin",
+        "altProfileIcon" : "Linkedin Icon",
+        "icon": linkedinIcon,
+        "link": "https://www.linkedin.com/in/shubham-muniyal-573285162/"
+    },
+    {
+        "key": "github",
+        "altProfileIcon" : "Github Icon",
+        "icon": githubIcon,
+        "link": "https://github.com/cw-shubhamMuniyal/"
+    },
+    {
+        "key": "twitter",
+        "altProfileIcon" : "Twitter Icon",
+        "icon": twitterIcon,
+        "link": "https://twitter.com/MuniyalShubham"
+    },
+    {
+        "key": "youtube",
+        "altProfileIcon" : "Youtube play Icon",
+        "icon": youtubeIcon,
+        "link": "www.youtube.com/@shubhammuniyal527"
+    }
+]

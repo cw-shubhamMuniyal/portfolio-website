@@ -1,5 +1,5 @@
 .contact {
-    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../../StaticMedia/Images/checks-background.svg);
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../StaticMedia/Images/checks-background.svg);
     background-size: cover;
     background-position: center;
 }
