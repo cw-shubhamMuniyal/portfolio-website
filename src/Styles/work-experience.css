@@ -1,0 +1,38 @@
+.work-experience {
+    background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8));
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-experience-card {
+    background: #fff;
+}
+
+.work-experience-card h3 {
+    text-transform: none;
+    color: #555;
+    font-size: 22px;
+}
+
+.experience__border {
+    border-color: #17a2b8;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
+}
+
+.work-experience-font {
+    font-size: 16px;
+}
+
+.color-purple {
+    color: #7843E9;
+}
+
+.card-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+}

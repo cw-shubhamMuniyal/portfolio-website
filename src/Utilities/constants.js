@@ -11,48 +11,86 @@ export const altEmailAddress = "shubham.muniyal@somaiya.edu";
 
 export const courseDetails = [
     {
-        duration : "2016 - 2020", 
-        name : "B.Tech in Information Technology",
-        grade : "CGPA - 8.6/10 (Avg.)",
-        university : "K.J.Somaiya College of Engineering (KJSCE), Vidyavihar, Mumbai. KJSCE is an autonomous organisation and is currently ranked among top tier undergraduate Institutes in India."
+        duration: "2016 - 2020",
+        name: "B.Tech in Information Technology",
+        grade: "CGPA - 8.6/10 (Avg.)",
+        university: "K.J.Somaiya College of Engineering (KJSCE), Vidyavihar, Mumbai. KJSCE is an autonomous organisation and is currently ranked among top tier undergraduate Institutes in India."
     },
     {
-        duration : "2014 - 2016", 
-        name : "Maharashtra HSC",
-        grade : "Percentage - 81.08%",
-        university : "Smt. Chandibai Himathmal Mansukhani College, Ulhasnagar"
+        duration: "2014 - 2016",
+        name: "Maharashtra HSC",
+        grade: "Percentage - 81.08%",
+        university: "Smt. Chandibai Himathmal Mansukhani College, Ulhasnagar"
     },
     {
-        duration : "2004 - 2014", 
-        name : "Maharashtra SSC",
-        grade : "Percentage - 91.00%",
-        university : "S.E.S English Medium High School, Ulhasnagar"
+        duration: "2004 - 2014",
+        name: "Maharashtra SSC",
+        grade: "Percentage - 91.00%",
+        university: "S.E.S English Medium High School, Ulhasnagar"
     },
 ];
 
 export const profileLinks = [
     {
         "key": "linkedin",
-        "altProfileIcon" : "Linkedin Icon",
+        "altProfileIcon": "Linkedin Icon",
         "icon": linkedinIcon,
         "link": "https://www.linkedin.com/in/shubham-muniyal-573285162/"
     },
     {
         "key": "github",
-        "altProfileIcon" : "Github Icon",
+        "altProfileIcon": "Github Icon",
         "icon": githubIcon,
         "link": "https://github.com/cw-shubhamMuniyal/"
     },
     {
         "key": "twitter",
-        "altProfileIcon" : "Twitter Icon",
+        "altProfileIcon": "Twitter Icon",
         "icon": twitterIcon,
         "link": "https://twitter.com/MuniyalShubham"
     },
     {
         "key": "youtube",
-        "altProfileIcon" : "Youtube play Icon",
+        "altProfileIcon": "Youtube play Icon",
         "icon": youtubeIcon,
         "link": "www.youtube.com/@shubhammuniyal527"
+    }
+];
+
+export const workExperiences = [
+    {
+        "key": "Decentralized Book App",
+        "organization": "tradescrypt.com",
+        "position": "Intern",
+        "duration": "Feb 2019 - Jun 2019 · 5 mos",
+        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+    },
+    {
+        "key": "Decentralized Book App",
+        "organization": "tradescrypt.com",
+        "position": "Intern",
+        "duration": "Feb 2019 - Jun 2019",
+        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data. I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+    },
+    {
+        "key": "Decentralized Book App",
+        "organization": "tradescrypt.com",
+        "position": "Intern",
+        "duration": "Feb 2019 - Jun 2019",
+        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+    },
+    {
+        "key": "Decentralized Book App",
+        "organization": "tradescrypt.com",
+        "position": "Intern",
+        "duration": "Feb 2019 - Jun 2019",
+        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+    },
+    {
+        "key": "Decentralized Book App",
+        "organization": "tradescrypt.com",
+        "position": "Intern",
+        "duration": "Feb 2019 - Jun 2019",
+        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
     }
 ]

@@ -2,6 +2,9 @@ import { altEmailAddress, emailAddress, name, phoneNumber, profileLinks } from "
 import "../Styles/footer.css"
 
 const getProfileDetailsList = () => {
+    if (!profileLinks) {
+        return <></>
+    }
     return profileLinks.map((profile) => (
         <a key={profile.key} target="_blank" rel="noreferrer" href={profile.link}>
             <img className="main-footer__icon" src={profile.icon} alt={profile.altProfileIcon} />

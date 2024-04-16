@@ -3,16 +3,17 @@ import "../Styles/heading.css"
 import Course from "./Course";
 
 const getCoursenDetails = (courseDetails) => {
-    if (courseDetails) {
-        return courseDetails.map((course) => (
-            <Course
-                duration={course.duration}
-                name={course.name}
-                grade={course.grade}
-                university={course.university}
-            />
-        ))
+    if (!courseDetails) {
+        return <></>
     }
+    return courseDetails.map((course) => (
+        <Course
+            duration={course.duration}
+            name={course.name}
+            grade={course.grade}
+            university={course.university}
+        />
+    ))
 }
 
 const Education = ({ sectionName, courseDetails }) => (
