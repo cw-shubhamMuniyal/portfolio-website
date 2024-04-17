@@ -1,7 +1,11 @@
-import linkedinIcon from "../StaticMedia/Images/linkedin-icon.png";
-import githubIcon from "../StaticMedia/Images/github-icon.png";
-import youtubeIcon from "../StaticMedia/Images/youtube-play.png";
-import twitterIcon from "../StaticMedia/Images/twitter-icon.png";
+import linkedinIcon from "../StaticMedia/Images/Icons/linkedin-icon.png";
+import githubIcon from "../StaticMedia/Images/Icons/github-icon.png";
+import youtubeIcon from "../StaticMedia/Images/Icons/youtube-play.png";
+import twitterIcon from "../StaticMedia/Images/Icons/twitter-icon.png";
+import twitterIconDark from "../StaticMedia/Images/Icons/twitter-black.png";
+import githubIconDark from "../StaticMedia/Images/Icons/github-black.png";
+import linkedinIconDark from "../StaticMedia/Images/Icons/linkedin-black.png";
+import youtubeIconDark from "../StaticMedia/Images/Icons/youtube-black.png";
 export const name = "Shubham Muniyal";
 export const description = "I'm a Software Engineer from India. I love to solve problems in an efficient way.";
 export const imageLogo = "https://i.postimg.cc/TwY74D31/profile-pic-8.png";
@@ -35,62 +39,55 @@ export const profileLinks = [
         "key": "linkedin",
         "altProfileIcon": "Linkedin Icon",
         "icon": linkedinIcon,
+        "darkIcon": linkedinIconDark,
         "link": "https://www.linkedin.com/in/shubham-muniyal-573285162/"
     },
     {
         "key": "github",
         "altProfileIcon": "Github Icon",
         "icon": githubIcon,
+        "darkIcon": githubIconDark,
         "link": "https://github.com/cw-shubhamMuniyal/"
     },
     {
         "key": "twitter",
         "altProfileIcon": "Twitter Icon",
         "icon": twitterIcon,
+        "darkIcon": twitterIconDark,
         "link": "https://twitter.com/MuniyalShubham"
     },
     {
         "key": "youtube",
         "altProfileIcon": "Youtube play Icon",
         "icon": youtubeIcon,
-        "link": "www.youtube.com/@shubhammuniyal527"
+        "darkIcon": youtubeIconDark,
+        "link": "https://youtube.com/@shubhammuniyal527"
     }
 ];
 
 export const workExperiences = [
     {
-        "key": "Decentralized Book App",
-        "organization": "tradescrypt.com",
-        "position": "Intern",
-        "duration": "Feb 2019 - Jun 2019 · 5 mos",
-        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+        "key": "Carwale SDE",
+        "organization": "carwale.com",
+        "position": "Software Developer",
+        "duration": "Nov 2020 - Present · 3 years",
+        "description": "I handle complete used cars and bike tech, designed architecture of buying and selling used vehicle. Also Lead multiple teams to achieve following: Created microservice to store and retrieve used vehicle data, added complete used bike flow, optimising SEO and user experience, adding new features for sell premium product to help sellers sell their car easily"
     },
     {
-        "key": "Decentralized Book App",
-        "organization": "tradescrypt.com",
+        "key": "Carwale Intern",
+        "organization": "carwale.com",
         "position": "Intern",
-        "duration": "Feb 2019 - Jun 2019",
-        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data. I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+        "duration": "Dec 2019 - Jan 2020 · 1 months",
+        "description": `Developed a utility where user can upload images on which some
+        validations are performed such as expected aspect ratio, expected size range and required image type. If they
+        validate successfully, then image will be uploaded on specified AWS directory.
+        It was developed to simplify operations team task where they were manually doing above checks`
     },
     {
-        "key": "Decentralized Book App",
-        "organization": "tradescrypt.com",
+        "key": "KJSCE Intern",
+        "organization": "K.J. Somaiya College of Engineering",
         "position": "Intern",
-        "duration": "Feb 2019 - Jun 2019",
-        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
+        "duration": "Feb 2019 - Jun 2019 . 5 months",
+        "description": "The project is done with the help of which the students can give the feedback on twitter account about college event by simply pressing a button on the Raspberry pi. After doing this, the user's image with his feedback will be posted on twitter. Also, the user can search about any twitter handle and can get the graphical analysis of metadata(ex- sentiments of the tweet, number of replies, number of followers of that account, etc) of the recent tweets of that twitter handle and searched hashtag."
     },
-    {
-        "key": "Decentralized Book App",
-        "organization": "tradescrypt.com",
-        "position": "Intern",
-        "duration": "Feb 2019 - Jun 2019",
-        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
-    },
-    {
-        "key": "Decentralized Book App",
-        "organization": "tradescrypt.com",
-        "position": "Intern",
-        "duration": "Feb 2019 - Jun 2019",
-        "description": "I studied the architecture of Blockstack(Decentralized computing network),Using Blockstack,i developed Decentralized book application, where writer can write their own books and reader can read books by searching author's name.The main difference from the normal book reading application is here the writer owns his own data rather than centralized application who can maliciously modify the innocent user's data."
-    }
 ]

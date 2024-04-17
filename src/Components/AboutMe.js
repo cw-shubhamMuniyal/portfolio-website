@@ -1,5 +1,7 @@
 import "../Styles/about-me.css"
+import { profileLinks } from "../Utilities/constants";
 import Mouse from "./Mouse";
+import QuickAccessBar from "./QuickAccessBar";
 function AboutMe({ name, description }) {
     return (
         <section className="about-me">
@@ -14,6 +16,7 @@ function AboutMe({ name, description }) {
                     <a href="./#projects" className="button button--bg">Projects</a>
                 </div>
             </div>
+            <QuickAccessBar links={profileLinks}/>
             <Mouse />
         </section>
     );

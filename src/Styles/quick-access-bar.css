@@ -1,0 +1,24 @@
+.quick-access-bar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: .5rem;
+}
+
+.quick-access-bar__element {
+    width: 5rem;
+}
+
+.quick-access-bar__icon-link {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.quick-access-bar-icon {
+    width: 100%;
+}

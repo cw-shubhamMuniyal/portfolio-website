@@ -4,7 +4,7 @@ const Experience = ({ position, organization, description, duration }) => {
             <div className="work-experience-card mx-0 p-4 mb-5">
                 <div className="mr-auto work-experience-font">
                     <h3 className="mb-4">
-                        <i class="fa-solid fa-browser"></i>
+                        <i className="fa-solid fa-browser"></i>
                         {position}
                     </h3>
                     <h4 className="mb-4">{organization}</h4>

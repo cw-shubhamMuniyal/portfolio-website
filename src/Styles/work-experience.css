@@ -11,17 +11,14 @@
 
 .work-experience-card {
     background: #fff;
+    border: 1px solid #7843E9;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
 }
 
 .work-experience-card h3 {
     text-transform: none;
     color: #555;
     font-size: 22px;
-}
-
-.experience__border {
-    border-color: #17a2b8;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);
 }
 
 .work-experience-font {

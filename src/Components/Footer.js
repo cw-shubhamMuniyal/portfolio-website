@@ -44,6 +44,9 @@ const Footer = () => (
                     </ul>
                 </div>
             </div>
+            <div className="main-footer__lower">
+                Design Copyright © Ram Maheshwari
+            </div>
         </div>
     </footer>
 );
