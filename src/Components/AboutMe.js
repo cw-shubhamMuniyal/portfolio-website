@@ -13,7 +13,7 @@ function AboutMe({ name, description }) {
                     </p>
                 </div>
                 <div className="about-me__cta">
-                    <a href="./#projects" className="button button--bg">Projects</a>
+                    <a href="/#projects" className="button button--bg">Projects</a>
                 </div>
             </div>
             <QuickAccessBar links={profileLinks}/>

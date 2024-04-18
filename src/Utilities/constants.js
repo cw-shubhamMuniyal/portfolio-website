@@ -6,18 +6,21 @@ import twitterIconDark from "../StaticMedia/Images/Icons/twitter-black.png";
 import githubIconDark from "../StaticMedia/Images/Icons/github-black.png";
 import linkedinIconDark from "../StaticMedia/Images/Icons/linkedin-black.png";
 import youtubeIconDark from "../StaticMedia/Images/Icons/youtube-black.png";
+import recruitmeImage from "../StaticMedia/Images/recruitme-project.gif"
+import profileImage from "../StaticMedia/Images/profileImage.jpg"
 export const name = "Shubham Muniyal";
 export const description = "I'm a Software Engineer from India. I love to solve problems in an efficient way.";
-export const imageLogo = "https://i.postimg.cc/TwY74D31/profile-pic-8.png";
+export const imageLogo = profileImage;
 export const phoneNumber = "+917083893561";
 export const emailAddress = "shubhammuniyal@gmail.com";
 export const altEmailAddress = "shubham.muniyal@somaiya.edu";
+
 
 export const courseDetails = [
     {
         duration: "2016 - 2020",
         name: "B.Tech in Information Technology",
-        grade: "CGPA - 8.6/10 (Avg.)",
+        grade: "CGPA - 8.6/10",
         university: "K.J.Somaiya College of Engineering (KJSCE), Vidyavihar, Mumbai. KJSCE is an autonomous organisation and is currently ranked among top tier undergraduate Institutes in India."
     },
     {
@@ -91,3 +94,63 @@ export const workExperiences = [
         "description": "The project is done with the help of which the students can give the feedback on twitter account about college event by simply pressing a button on the Raspberry pi. After doing this, the user's image with his feedback will be posted on twitter. Also, the user can search about any twitter handle and can get the graphical analysis of metadata(ex- sentiments of the tweet, number of replies, number of followers of that account, etc) of the recent tweets of that twitter handle and searched hashtag."
     },
 ]
+
+export const Projects = [
+    {
+        "key": "1",
+        "name": "RECRUIT.ME",
+        "image": recruitmeImage,
+        "altImage": "Recruit Me Project Image",
+        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
+         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
+         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
+        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
+    },
+    {
+        "key": "1",
+        "name": "RECRUIT.ME",
+        "image": recruitmeImage,
+        "altImage": "Recruit Me Project Image",
+        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
+         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
+         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
+        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
+    },
+    {
+        "key": "1",
+        "name": "RECRUIT.ME",
+        "image": recruitmeImage,
+        "altImage": "Recruit Me Project Image",
+        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
+         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
+         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
+        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
+    },
+    {
+        "key": "1",
+        "name": "RECRUIT.ME",
+        "image": recruitmeImage,
+        "altImage": "Recruit Me Project Image",
+        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
+         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
+         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
+        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
+    },
+    {
+        "key": "1",
+        "name": "RECRUIT.ME",
+        "image": recruitmeImage,
+        "altImage": "Recruit Me Project Image",
+        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
+         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
+         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
+        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
+    }
+]
+
+export const viewProjectText = "View Project";
