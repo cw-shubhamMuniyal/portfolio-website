@@ -154,3 +154,4 @@ export const Projects = [
 ]
 
 export const viewProjectText = "View Project";
+export const githubLinkText = "GITHUB LINK"; 

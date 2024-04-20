@@ -14,7 +14,7 @@ function App() {
       <Header name={name} imageLogo={imageLogo} />
       <AboutMe name={name} description={description} />
       <WorkExperience sectionName="Work Experience" />
-      <ProjectsComponent sectionName="projects" sectionDescription="Here you find my personal projects. Also projects built in unversity and through internships"
+      <ProjectsComponent sectionName="projects" sectionDescription="Here you will find my personal projects. Also projects built in unversity and through internships"
         projects={Projects}
       />
       <Education sectionName="Education" courseDetails={courseDetails} />

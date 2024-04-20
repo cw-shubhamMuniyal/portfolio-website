@@ -80,3 +80,27 @@
     padding: 1.5rem 5rem;
     font-size: 1.6rem;
 }
+
+.projects__github-link {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    border-radius: 5px;
+    margin-right: 4rem;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    padding: 0 10px;
+}
+
+.projects__github-link-text {
+    font-size: 1.6rem;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+.projects__link {
+    display: flex;
+}

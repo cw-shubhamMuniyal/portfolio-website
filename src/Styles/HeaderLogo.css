@@ -4,6 +4,7 @@
     cursor: pointer;
     color: #333;
     transition: color .3s;
+    text-decoration: none;
 }
 
 .header__logo-img-cont {

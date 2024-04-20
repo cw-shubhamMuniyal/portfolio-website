@@ -1,6 +1,7 @@
 import "../Styles/heading.css"
 import "../Styles/projects.css"
-import { viewProjectText } from "../Utilities/constants"
+import { githubLinkText, viewProjectText } from "../Utilities/constants"
+import githubIcon from "../StaticMedia/Images/Icons/github-icon-20.png";
 
 const getProjectsData = (projects) => {
     if (!projects) {
@@ -18,7 +19,13 @@ const getProjectsData = (projects) => {
                         <p className="projects__row-content-desc">
                             {project.description}
                         </p>
-                        <a className="btn--med btn--theme dynamicBgClr" href={project.demoLink} target="_blank">{viewProjectText}</a>
+                        <div className="projects__link">
+                            <a className="projects__github-link" href={project.githubLink} target="_blank">
+                                <img src={githubIcon} />
+                                <span className="projects__github-link-text">{githubLinkText}</span>
+                            </a>
+                            <a className="btn--med btn--theme dynamicBgClr" href={project.demoLink} target="_blank">{viewProjectText}</a>
+                        </div>
                     </div>
                 </div>
             </div>
