@@ -8,6 +8,7 @@ const getCoursenDetails = (courseDetails) => {
     }
     return courseDetails.map((course) => (
         <Course
+            keyVal={course.key}
             duration={course.duration}
             name={course.name}
             grade={course.grade}

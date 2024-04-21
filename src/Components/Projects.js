@@ -3,6 +3,27 @@ import "../Styles/projects.css"
 import { githubLinkText, viewProjectText } from "../Utilities/constants"
 import githubIcon from "../StaticMedia/Images/Icons/github-icon-20.png";
 
+const GithubButton = ({ githubLink }) => {
+    if (!githubLink) {
+        return <></>
+    }
+    return (
+        <a className="projects__github-link" href={githubLink} target="_blank">
+            <img src={githubIcon} />
+            <span className="projects__github-link-text">{githubLinkText}</span>
+        </a>
+    );
+}
+
+const DemoButton = ({ demoLink }) => {
+    if (!demoLink) {
+        return <></>
+    }
+    return (
+        <a className="btn--med btn--theme dynamicBgClr" href={demoLink} target="_blank">{viewProjectText}</a>
+    );
+}
+
 const getProjectsData = (projects) => {
     if (!projects) {
         return <></>
@@ -20,11 +41,8 @@ const getProjectsData = (projects) => {
                             {project.description}
                         </p>
                         <div className="projects__link">
-                            <a className="projects__github-link" href={project.githubLink} target="_blank">
-                                <img src={githubIcon} />
-                                <span className="projects__github-link-text">{githubLinkText}</span>
-                            </a>
-                            <a className="btn--med btn--theme dynamicBgClr" href={project.demoLink} target="_blank">{viewProjectText}</a>
+                            <GithubButton githubLink={project.githubLink} />
+                            <DemoButton demoLink={project.demoLink} />
                         </div>
                     </div>
                 </div>

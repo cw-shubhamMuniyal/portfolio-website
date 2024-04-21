@@ -18,18 +18,21 @@ export const altEmailAddress = "shubham.muniyal@somaiya.edu";
 
 export const courseDetails = [
     {
+        key: 1,
         duration: "2016 - 2020",
         name: "B.Tech in Information Technology",
         grade: "CGPA - 8.6/10",
         university: "K.J.Somaiya College of Engineering (KJSCE), Vidyavihar, Mumbai. KJSCE is an autonomous organisation and is currently ranked among top tier undergraduate Institutes in India."
     },
     {
+        key: 2,
         duration: "2014 - 2016",
         name: "Maharashtra HSC",
         grade: "Percentage - 81.08%",
         university: "Smt. Chandibai Himathmal Mansukhani College, Ulhasnagar"
     },
     {
+        key: 3,
         duration: "2004 - 2014",
         name: "Maharashtra SSC",
         grade: "Percentage - 91.00%",
@@ -107,50 +110,6 @@ export const Projects = [
         "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
         "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
     },
-    {
-        "key": "1",
-        "name": "RECRUIT.ME",
-        "image": recruitmeImage,
-        "altImage": "Recruit Me Project Image",
-        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
-         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
-         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
-        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
-        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
-    },
-    {
-        "key": "1",
-        "name": "RECRUIT.ME",
-        "image": recruitmeImage,
-        "altImage": "Recruit Me Project Image",
-        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
-         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
-         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
-        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
-        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
-    },
-    {
-        "key": "1",
-        "name": "RECRUIT.ME",
-        "image": recruitmeImage,
-        "altImage": "Recruit Me Project Image",
-        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
-         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
-         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
-        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
-        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
-    },
-    {
-        "key": "1",
-        "name": "RECRUIT.ME",
-        "image": recruitmeImage,
-        "altImage": "Recruit Me Project Image",
-        "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
-         It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
-         The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
-        "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
-        "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
-    }
 ]
 
 export const viewProjectText = "View Project";

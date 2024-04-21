@@ -1,18 +1,18 @@
-import { altEmailAddress, emailAddress, name, phoneNumber, profileLinks } from "../Utilities/constants";
+import { altEmailAddress, emailAddress, name, phoneNumber } from "../Utilities/constants";
 import "../Styles/footer.css"
 
-const getProfileDetailsList = () => {
-    if (!profileLinks) {
+const getProfileDetailsList = (links) => {
+    if (!links) {
         return <></>
     }
-    return profileLinks.map((profile) => (
-        <a key={profile.key} target="_blank" rel="noreferrer" href={profile.link}>
-            <img className="main-footer__icon" src={profile.icon} alt={profile.altProfileIcon} />
+    return links.map((link) => (
+        <a key={link.key} target="_blank" rel="noreferrer" href={link.link}>
+            <img className="main-footer__icon" src={link.icon} alt={link.altProfileIcon} />
         </a>
     ))
 }
 
-const Footer = () => (
+const Footer = ({ links }) => (
     <footer className="main-footer">
         <div className="main-container">
             <div className="main-footer__upper">
@@ -22,7 +22,7 @@ const Footer = () => (
                     </div>
                     <div className="divider divider-sm bg-white mt-3"></div>
                     <div className="main-footer__social-cont">
-                        {getProfileDetailsList()}
+                        {getProfileDetailsList(links)}
                     </div>
                 </div>
                 <div className="main-footer__row main-footer__row-2">

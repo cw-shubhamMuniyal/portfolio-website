@@ -3,7 +3,7 @@ import AboutMe from './Components/AboutMe';
 import Contact from './Components/Contact';
 import Education from './Components/Education';
 import Header from './Components/Header';
-import { courseDetails, description, imageLogo, name, Projects } from './Utilities/constants';
+import { courseDetails, description, imageLogo, name, profileLinks, Projects } from './Utilities/constants';
 import Footer from './Components/Footer';
 import WorkExperience from "./Components/WorkExperience";
 import ProjectsComponent from "./Components/Projects";
@@ -19,7 +19,7 @@ function App() {
       />
       <Education sectionName="Education" courseDetails={courseDetails} />
       <Contact sectionName="Contact" />
-      <Footer />
+      <Footer links={profileLinks} />
     </div>
   );
 }

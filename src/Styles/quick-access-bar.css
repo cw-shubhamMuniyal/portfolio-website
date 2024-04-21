@@ -7,6 +7,12 @@
     padding: .5rem;
 }
 
+@media only screen and (max-width: 56.25em) {
+    .quick-access-bar {
+        display: none;
+    }
+}
+
 .quick-access-bar__element {
     width: 5rem;
 }

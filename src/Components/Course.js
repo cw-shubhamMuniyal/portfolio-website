@@ -1,6 +1,6 @@
-function Course({ duration, name, grade, university }) {
+function Course({ keyVal, duration, name, grade, university }) {
     return (
-        <div className="award">
+        <div className="award" key={keyVal}>
             <div className="award-icon"></div>
             <div className="award-content">
                 <span className="date">{duration}</span>
