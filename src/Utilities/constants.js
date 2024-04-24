@@ -7,6 +7,7 @@ import githubIconDark from "../StaticMedia/Images/Icons/github-black.png";
 import linkedinIconDark from "../StaticMedia/Images/Icons/linkedin-black.png";
 import youtubeIconDark from "../StaticMedia/Images/Icons/youtube-black.png";
 import recruitmeImage from "../StaticMedia/Images/recruitme-project.gif"
+import ticTacToeAiImage from "../StaticMedia/Images/TicTacToe-project.gif"
 import profileImage from "../StaticMedia/Images/profileImage.jpg"
 export const name = "Shubham Muniyal";
 export const description = "I'm a Software Engineer from India. I love to solve problems in an efficient way.";
@@ -15,6 +16,34 @@ export const phoneNumber = "+917083893561";
 export const emailAddress = "shubhammuniyal@gmail.com";
 export const altEmailAddress = "shubham.muniyal@somaiya.edu";
 
+
+export const navbarContentLinks = [
+    {
+        key: 1,
+        text: "About",
+        link: "#"
+    },
+    {
+        key: 2,
+        text: "Work Experience",
+        link: "#workExperience"
+    },
+    {
+        key: 3,
+        text: "Projects",
+        link: "#projects"
+    },
+    {
+        key: 4,
+        text: "Education",
+        link: "#education"
+    },
+    {
+        key: 5,
+        text: "Contact",
+        link: "#contact"
+    },
+]
 
 export const courseDetails = [
     {
@@ -103,12 +132,21 @@ export const Projects = [
         "key": "1",
         "name": "RECRUIT.ME",
         "image": recruitmeImage,
-        "altImage": "Recruit Me Project Image",
+        "altImage": "Recruit Me Project GIF",
         "description": `The project automate the process of finding the student activeness on competitive platforms(codechef.com, hackerrank.com) and development platform(GitHub.com) which ease the work of candidate selection in the placement procedure.
          It takes user account name on those platforms and scrape the information (rating,number of stars,contributions,etc) which is used by the Interviewer to check the student's performance.
          The interviewer can also compare students applied for interview and invite the desired candidate for further placement process.`,
         "githubLink": "https://github.com/cw-shubhamMuniyal/Recruiter-app",
         "demoLink": "https://www.youtube.com/watch?v=8xoCqm1-tL4"
+    },
+    {
+        "key": "2",
+        "name": "TicTacToeAI",
+        "image": ticTacToeAiImage,
+        "altImage": "TicTacToeAI Project GIF",
+        "description": `Tic tac toe game played between human and AI or played among two humans. Used Min Max algorithm to let AI make strategic moves instead of random moves.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/TicTacToeAI",
+        "demoLink": "https://cw-shubhammuniyal.github.io/TicTacToeAI/"
     },
 ]
 

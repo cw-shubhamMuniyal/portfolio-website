@@ -9,7 +9,7 @@ const GithubButton = ({ githubLink }) => {
     }
     return (
         <a className="projects__github-link" href={githubLink} target="_blank">
-            <img src={githubIcon} />
+            <img src={githubIcon} alt="github icon" />
             <span className="projects__github-link-text">{githubLinkText}</span>
         </a>
     );

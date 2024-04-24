@@ -1,30 +1,36 @@
-function NavbarContent() {
+import { useState } from "react";
+import { navbarContentLinks } from "../Utilities/constants";
+
+const NavbarContent = () => {
+
+    const [shouldShowNavbar, setShouldShowNavbar] = useState(false);
+
+    const toggleExpandCollapse = () => {
+        setShouldShowNavbar(prevState => !prevState)
+    };
+
+    const getNavbarList = (links) => {
+        return links.map((link) => {
+            return (
+                <li key={link.key} className="nav-item" onClick={toggleExpandCollapse}>
+                    <a className="custom-nav-link nav-link" href={link.link} data-bs-target=".navbar-collapse.show">{link.text}</a>
+                </li>
+            )
+        })
+    }
+
     return (
         <>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button id="navbarBtn" className={`navbar-toggler`} type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation"
+                onClick={toggleExpandCollapse}
+            >
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse custom-navbar-collapse" id="navbarNav">
+            <div className={`collapse navbar-collapse custom-navbar-collapse ${shouldShowNavbar ? "show" : ""}`} id={`navbarNav`}>
                 <ul className="navbar-nav">
-                    <li className="nav-item">
-                        <a className="custom-nav-link nav-link" href="#" data-bs-target=".navbar-collapse.show">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="custom-nav-link nav-link" href="#workExperience" data-bs-target=".navbar-collapse.show">Work Experience</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="custom-nav-link nav-link" href="#projects" data-bs-target=".navbar-collapse.show">Projects</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="custom-nav-link nav-link" href="#education" data-bs-target=".navbar-collapse.show">Education</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="custom-nav-link nav-link" href="#contact" data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse.show"
-                        >
-                            Contact
-                        </a>
-                    </li>
+                    {getNavbarList(navbarContentLinks)}
                 </ul>
             </div>
         </>
