@@ -106,7 +106,38 @@ export const workExperiences = [
         "organization": "carwale.com",
         "position": "Software Developer",
         "duration": "Nov 2020 - Present · 3 years",
-        "description": "I handle complete used cars and bike tech, designed architecture of buying and selling used vehicle. Also Lead multiple teams to achieve following: Created microservice to store and retrieve used vehicle data, added complete used bike flow, optimising SEO and user experience, adding new features for sell premium product to help sellers sell their car easily"
+        "description": `
+        <ol>
+        <li>
+        Modified Recommendation engine for used cars and used it on Carwale and Cartrade which caused increase in used cars revenue by 50% within a quarter.
+        </li>
+        <li>
+        Built a panel via which operations team directly connect to used car buyer and suggest user based recommendations, increased leads generations by 3k per day.
+        </li>
+        <li>
+        Migrated complete used bikes section which increased buyer leads conversion by 82%.
+        </li>
+        <li>
+        Improved page performance by fixing CLS , LCP , FCP and server response time causing increase of Core Web Vitals from 30 to 70.
+        </li>
+        <li>
+        Added Pro Plus package for premium sellers which increased revenue per listing(RPL) by 60%.
+        </li>
+        <li>
+        Created a microservice to handle used vehicle stocks and migrated consumers to use new microservice.
+        </li>
+        <li>
+        Created sitemap for used car links of CarTrade which updates 1000s of URLs every 5 minutes.
+        </li>
+        <li>
+        Lead a team of 4 engineers for migration and product development.
+        </li>
+        <li>
+        Lead all meetings to collaborate with team members, Product Owners and required stakeholders for effective sprint planning and proper implementation.
+        </li>
+        <li>
+        Trained 3 freshers for smooth onboarding process.
+        </ol>`
     },
     {
         "key": "Carwale Intern",
@@ -116,7 +147,7 @@ export const workExperiences = [
         "description": `Developed a utility where user can upload images on which some
         validations are performed such as expected aspect ratio, expected size range and required image type. If they
         validate successfully, then image will be uploaded on specified AWS directory.
-        It was developed to simplify operations team task where they were manually doing above checks`
+        It was developed to simplify operations team task where they were manually doing above checks.`
     },
     {
         "key": "KJSCE Intern",
@@ -147,6 +178,15 @@ export const Projects = [
         "description": `Tic tac toe game played between human and AI or played among two humans. Used Min Max algorithm to let AI make strategic moves instead of random moves.`,
         "githubLink": "https://github.com/cw-shubhamMuniyal/TicTacToeAI",
         "demoLink": "https://cw-shubhammuniyal.github.io/TicTacToeAI/"
+    },
+    {
+        "key": "3",
+        "name": "LetUsConnect",
+        "image": "",
+        "altImage": "LetUsConnect Project GIF",
+        "description": `The website allows you to showcase your skills and connect with people. You can add your work experience and projects, basically your whole portfolio in a concise way. It also contains chat feature where you can connect with other people on the App.`,
+        "githubLink": "https://github.com/cw-shubhamMuniyal/LetUsConnect",
+        "demoLink": ""
     },
 ]
 

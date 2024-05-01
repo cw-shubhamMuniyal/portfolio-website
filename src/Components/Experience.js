@@ -8,7 +8,7 @@ const Experience = ({ position, organization, description, duration }) => {
                         {position}
                     </h3>
                     <h4 className="mb-4">{organization}</h4>
-                    <p className="mb-4">{description}</p>
+                    <p className="mb-4" dangerouslySetInnerHTML={{__html: description}}></p>
                 </div>
                 <div className="text-md-right work-experience-font">
                     <span className="color-purple">{duration}</span>
