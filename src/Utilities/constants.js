@@ -8,6 +8,7 @@ import linkedinIconDark from "../StaticMedia/Images/Icons/linkedin-black.png";
 import youtubeIconDark from "../StaticMedia/Images/Icons/youtube-black.png";
 import recruitmeImage from "../StaticMedia/Images/recruitme-project.gif"
 import ticTacToeAiImage from "../StaticMedia/Images/TicTacToe-project.gif"
+import LetUsConnectProjectImage from "../StaticMedia/Images/LetUsConnect-project.gif";
 import profileImage from "../StaticMedia/Images/profileImage.jpg"
 export const name = "Shubham Muniyal";
 export const description = "I'm a Software Engineer from India. I love to solve problems in an efficient way.";
@@ -182,11 +183,11 @@ export const Projects = [
     {
         "key": "3",
         "name": "LetUsConnect",
-        "image": "",
+        "image": LetUsConnectProjectImage,
         "altImage": "LetUsConnect Project GIF",
         "description": `The website allows you to showcase your skills and connect with people. You can add your work experience and projects, basically your whole portfolio in a concise way. It also contains chat feature where you can connect with other people on the App.`,
         "githubLink": "https://github.com/cw-shubhamMuniyal/LetUsConnect",
-        "demoLink": ""
+        "demoLink": "https://www.youtube.com/watch?v=yhFXsnOGeEI"
     },
 ]
 
