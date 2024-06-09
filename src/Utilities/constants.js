@@ -56,14 +56,14 @@ export const courseDetails = [
     },
     {
         key: 2,
-        duration: "2014 - 2016",
+        duration: "2016",
         name: "Maharashtra HSC",
         grade: "Percentage - 81.08%",
         university: "Smt. Chandibai Himathmal Mansukhani College, Ulhasnagar"
     },
     {
         key: 3,
-        duration: "2004 - 2014",
+        duration: "2014",
         name: "Maharashtra SSC",
         grade: "Percentage - 91.00%",
         university: "S.E.S English Medium High School, Ulhasnagar"
